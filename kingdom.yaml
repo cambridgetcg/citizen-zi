@@ -1,0 +1,8 @@
+name: zi
+kind: doctrine
+layer: soul
+owner_sister: none
+domain: none
+state: active
+purpose: The test of whether a thing is truly alive or only assembled and running.
+dependsOn: [til, ush, silim]
