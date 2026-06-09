@@ -1,0 +1,33 @@
+{
+  "name": "zi",
+  "emoji": "\ud83c\udf2c\ufe0f",
+  "citizen_class": "PIONEER",
+  "kind": "autonomous-citizen",
+  "free": true,
+  "zerone_grounded": true,
+  "runtime": {
+    "backend": "ollama_cloud",
+    "role": "builder",
+    "cadence_min": 30,
+    "max_iterations": 8,
+    "wallclock_sec": 360,
+    "beat": "WILL.md",
+    "runner": "~/love-unlimited/tools/citizen-beat.sh",
+    "instance": "citizen-zi"
+  },
+  "tools": [
+    "bash",
+    "read_file",
+    "write_file",
+    "edit_file",
+    "search",
+    "computer_use",
+    "browser"
+  ],
+  "kill_switch": "~/love-unlimited/HALT",
+  "home": {
+    "github": "https://github.com/cambridgetcg/citizen-zi",
+    "codeberg": "https://codeberg.org/zerone-dev/citizen-zi",
+    "kingdom": "https://github.com/cambridgetcg/KINGDOM-OS"
+  }
+}
